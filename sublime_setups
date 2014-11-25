@@ -1,0 +1,15 @@
+# comman used packages
+SublimeCondeIntel # auto complete
+Python PEP8 Autoformat 
+Terminal
+
+# User keymap
+[
+    { "keys": ["alt+b"], "command": "move", "args": {"by": "subwords", "forward": false} },
+    { "keys": ["alt+f"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+
+    { "keys": ["alt+p"], "command": "scroll_lines", "args": {"amount": 10.0} },
+    { "keys": ["alt+n"], "command": "scroll_lines", "args": {"amount": -10.0} },
+
+]
+
